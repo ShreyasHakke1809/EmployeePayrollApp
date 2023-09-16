@@ -33,3 +33,60 @@ img{ height: 3em;}
 .emp-payroll:hover{ text-shadow: 1px 1px 1px #82A70C;}
 .emp-payroll{ color: #42515f;}
 * { box-sizing: border-box;}
+
+.form-content{
+    min-height: calc(100% - 80px);
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid green;
+}
+.form{
+    width: 65%;
+    padding: 44px 60px;
+    border: 1px solid rgb(228, 225, 225);
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+.form:hover{ box-shadow: 1px 1px 6px #82A70C;}
+.form-head{
+    font: normal normal bold 24px/37px Roboto;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.form-head:hover{ text-shadow: 1px 1px 10px #82A70C;}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.label{
+    min-width: 150px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.text{
+    font-size: 16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+::placeholder{font-size: 16px;}
