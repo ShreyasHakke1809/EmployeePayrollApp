@@ -121,3 +121,59 @@ select {
     background-color: transparent;
   }
   select:hover{ background-color:  #e9f3c9;}
+
+  .buttonParent {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .button {
+    border-radius: 4px;
+    background-color: rgb(63, 63, 63);
+    border: none;
+    color: #FFFFFF ;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    width: 100px;
+  }
+  .button:hover{ box-shadow: 1px 1px 20px #82A70C;}
+  .submit-reset{
+    justify-content: end;  
+  }
+  .submitButton {
+    border: none;
+    background-color: rgb(50, 123, 192);
+    margin-right: 10px;
+  }
+  .submitButton:hover{ 
+    color: black;
+ }
+  .cancelButton {
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(241, 66, 66);
+    font-family: Roboto;
+  }
+  .cancelButton:hover{ 
+    color: black;
+}
+  .resetButton:hover{ 
+    color: black;
+    background-color: #42515f;
+}
+.label:hover{
+    color: black;
+    text-shadow: 1px 1px 10px #82A70C;
+}
+error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
